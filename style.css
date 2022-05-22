@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulos {
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulos:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition-duration: 1000ms;
+}
+
+ul{
+    margin: 10px;
+}
