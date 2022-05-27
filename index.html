@@ -11,6 +11,11 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="shortcut icon" href="./img/icons8-física-48.png" type="image/x-icon">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <link rel="stylesheet" href="./style.css">
     <title>Blog Cinematica | Fisica Mecanica</title>
 </head>
@@ -27,16 +32,44 @@
             <div class="navbar-nav ">
                 <a class="nav-link text-white" href="./index.html">Blog la Cinematica |</a>
                 <a class="nav-link text-white active " href="/corteUno.html">Primer Corte |</a>
-                <a class="nav-link text-white" href="./corteDos.html">Segundo Corte |</a>
-                <a class="nav-link text-white" href="./corteTres.html">Tercer Corte</a>
+                <a class="nav-link text-white disabled" href="./corteDos.html">Segundo Corte |</a>
+                <a class="nav-link text-white disabled" href="./corteTres.html">Tercer Corte</a>
             </div>
         </div>
     </nav>
 
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/cinematica-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/cinematica-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/cinemc3a1tica.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="titulos">Que es la Fisica Mecanica</h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Que es la Fisica Mecanica</h2>
                 <p>En física, se conoce como mecánica al estudio y análisis del movimiento y
                     reposo de los cuerpos, así como su evolución temporal bajo la acción de una o varias
                     fuerzas. Su nombre proviene del latín mecánica, que significa “el arte de construir
@@ -48,39 +81,45 @@
                     de la ingeniería clásica.
                 </p>
 
-                <h2 class="titulos">¿Para qué sirve la física mecánica?</h2>
-                <p>La mecánica es el área de la física que se ocupa del estudio del movimiento de
-                    objetos macroscópicos. Las distintas fuerzas que pueden aplicarse a los objetos
-                    resultan en desplazamientos o cambios en la posición de un objeto.
-                </p>
+                <h2 class="animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">¿Para qué sirve la física mecánica?</h2>
+                <div class="row">
+                    <div class="col-7">
+                        <p>La mecánica es el área de la física que se ocupa del estudio del movimiento de
+                            objetos macroscópicos. Las distintas fuerzas que pueden aplicarse a los objetos
+                            resultan en desplazamientos o cambios en la posición de un objeto.
+                        </p>
 
-                <h5>Ejemplos en la vida real</h5>
-                <p> <b>Interacción de engranes: </b> Cuando una caja reductora o amplificadora funciona, en su
-                    interior hay un proceso mecánico debido a los ejes y engranes, esto es parte de la
-                    mecánica en la física.
-                </p>
-                <p> <b>Una montaña rusa: </b> La interacción de sus elementos mecánicos y los cambios de
-                    velocidad y posiciones de los juegos de atracción son parte de la mecánica.
-                </p>
-                <p><b>Sistemas de polea y correa: </b>Es común observar en los carros un sistema de poleas,
-                    en donde existen cadenas y correas, estas permiten una trasmisión de potencia y en
-                    algunos casos producción de energía, esto es parte de la mecánica.</p>
+                        <h5>Ejemplos en la vida real</h5>
+                        <p> <b>Interacción de engranes: </b> Cuando una caja reductora o amplificadora funciona, en su
+                            interior hay un proceso mecánico debido a los ejes y engranes, esto es parte de la
+                            mecánica en la física.
+                        </p>
+                        <p> <b>Una montaña rusa: </b> La interacción de sus elementos mecánicos y los cambios de
+                            velocidad y posiciones de los juegos de atracción son parte de la mecánica.
+                        </p>
+                        <p><b>Sistemas de polea y correa: </b>Es común observar en los carros un sistema de poleas,
+                            en donde existen cadenas y correas, estas permiten una trasmisión de potencia y en
+                            algunos casos producción de energía, esto es parte de la mecánica.</p>
+                    </div>
+                    <div class="col-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/L9mfsUfXq-I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/L9mfsUfXq-I"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                </div>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">¿Qué es la cinemática de forma simplificada?</h2>
+                <div class="row">
+                    <img class="img-fluid col-6" src="./img/img-1.png" alt="Imagen#1">
 
-                <h2 class="titulos">¿Qué es la cinemática de forma simplificada?</h2>
-                <p>Esta es la rama de la física que estudia las leyes del movimiento de los cuerpos
-                    sin considerar las causas que lo originan (las fuerzas) y se limita, esencialmente, al
-                    estudio de la trayectoria en función del tiempo. La aceleración es el ritmo con el que
-                    cambia la velocidad. La velocidad y la aceleración son las dos principales magnitudes
-                    que describen cómo cambia la posición en función del tiempo.
-                </p>
-                <img class="img-fluid" src="./img/img-1.png" alt="Imagen#1">
+                    <p class="col-6">Esta es la rama de la física que estudia las leyes del movimiento de los cuerpos
+                        sin considerar las causas que lo originan (las fuerzas) y se limita, esencialmente, al
+                        estudio de la trayectoria en función del tiempo. La aceleración es el ritmo con el que
+                        cambia la velocidad. La velocidad y la aceleración son las dos principales magnitudes
+                        que describen cómo cambia la posición en función del tiempo.
+                    </p>
+                </div>
 
-                <h2 class="titulos">Historia de la cinemática</h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Historia de la cinemática</h2>
                 <p>Los primeros en intentar describir el movimiento fueron los astrónomos y los
                     filósofos griegos. Hacia 1605, Galileo Galilei hizo sus famosos estudios del movimiento
                     de caída libre y de esferas en planos inclinados a fin de comprender aspectos del
@@ -115,7 +154,7 @@
                     nueva etapa, la cinemática relativista, donde el tiempo y el espacio no son absolutos, y
                     sí lo es la velocidad de la luz.</p>
 
-                <h2 class="titulos">Elementos básicos de la cinemática </h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Elementos básicos de la cinemática </h2>
 
                 <p>Los elementos básicos de la cinemática son el espacio, el tiempo y un móvil.
                     En la mecánica clásica se admite la existencia de un espacio absoluto, es decir,
@@ -137,7 +176,7 @@
                     este caso se le denomina cinemática del sólido rígido o del cuerpo rígido.
                 </p>
 
-                <h2 class="titulos">Fundamentos de la cinemática clásica </h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Fundamentos de la cinemática clásica </h2>
                 <p> La cinemática trata del estudio del movimiento de los cuerpos en general y, en
                     particular, el caso simplificado del movimiento de un punto material, mas no estudia por
                     qué se mueven los cuerpos. Para sistemas de muchas partículas, por ejemplo, los
@@ -184,7 +223,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
 
-                <h2 class="titulos">Registro del movimiento </h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Registro del movimiento </h2>
                 <p>La tecnología hoy en día nos ofrece muchas formas de registrar el movimiento
                     efectuado por un cuerpo. Así, para medir la velocidad de los vehículos se dispone del
                     radar de tráfico cuyo funcionamiento se basa en el efecto Doppler. El tacómetro es un
@@ -196,14 +235,14 @@
                     vehículos.
                 </p>
 
-                <h2 class="titulos">Movimiento rectilíneo </h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Movimiento rectilíneo </h2>
                 <p>Es aquel en el que el móvil describe una trayectoria en línea recta, En
                     cinemática, trayectoria es el lugar geométrico de las posiciones sucesivas por las que
                     pasa un cuerpo en su movimiento. La trayectoria depende del sistema de referencia en
                     el que se describa el movimiento; es decir el punto de vista del observador.
                 </p>
 
-                <h2 class="titulos">Movimiento rectilíneo uniforme</h2>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Movimiento rectilíneo uniforme</h2>
                 <p>En este movimiento la velocidad permanece constante y no hay una variación de
                     la aceleración (a) en el transcurso del tiempo. Esto corresponde al movimiento de un
                     objeto lanzado en el espacio fuera de toda interacción, o al movimiento de un objeto
@@ -212,33 +251,53 @@
                 </p>
                 <img class="img-fluid" src="./img/img-2.png" alt="">
 
-                <h2 class="titulos">Cinemática relativista</h2>
-                <p>En la relatividad, lo que es absoluto es la velocidad de la luz en el vacío, no el
-                    espacio o el tiempo. Todo observador en un sistema de referencia inercial no importa
-                    su velocidad relativa, va a medir la misma velocidad para la luz que otro observador en
-                    otro sistema. Esto no es posible desde el punto de vista clásico. Las transformaciones
-                    de movimiento entre dos sistemas de referencia deben tener en cuenta este hecho, de
-                    lo que surgieron las transformaciones de Lorentz. En ellas se ve que las dimensiones
-                    espaciales y el tiempo están relacionadas, por lo que en relatividad es normal hablar
-                    del espacio-tiempo y de un espacio cuatridimensional.
-                </p>
-                <p>
-                    La Cinemática es un caso especial de geometría diferencial de curvas, en el que
-                    todas las curvas se parametrizan de la misma forma: con el tiempo. Para el caso
-                    relativista, el tiempo coordenado es una medida relativa para cada observador, por
-                    tanto, se requiere el uso de algún tipo de medida invariante como el intervalo relativista
-                    o equivalentemente para partículas con masa el tiempo propio. La relación entre el
-                    tiempo coordenado de un observador y el tiempo propio viene dada por el factor de
-                    Lorentz.
-                </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/th79sDCAh0Q"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <h2 class="titulos animate__animated animate__bounce animate__delay-2s animate__infinite	infinite">Cinemática relativista</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <p>En la relatividad, lo que es absoluto es la velocidad de la luz en el vacío, no el
+                            espacio o el tiempo. Todo observador en un sistema de referencia inercial no importa
+                            su velocidad relativa, va a medir la misma velocidad para la luz que otro observador en
+                            otro sistema. Esto no es posible desde el punto de vista clásico. Las transformaciones
+                            de movimiento entre dos sistemas de referencia deben tener en cuenta este hecho, de
+                            lo que surgieron las transformaciones de Lorentz. En ellas se ve que las dimensiones
+                            espaciales y el tiempo están relacionadas, por lo que en relatividad es normal hablar
+                            del espacio-tiempo y de un espacio cuatridimensional.
+                        </p>
+                        <p>
+                            La Cinemática es un caso especial de geometría diferencial de curvas, en el que
+                            todas las curvas se parametrizan de la misma forma: con el tiempo. Para el caso
+                            relativista, el tiempo coordenado es una medida relativa para cada observador, por
+                            tanto, se requiere el uso de algún tipo de medida invariante como el intervalo relativista
+                            o equivalentemente para partículas con masa el tiempo propio. La relación entre el
+                            tiempo coordenado de un observador y el tiempo propio viene dada por el factor de
+                            Lorentz.
+                        </p>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/th79sDCAh0Q"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
 
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Integrantes</h2>
+                    <p>Steven Lopez</p>
+                    <p>Erick Bello</p>
+                </div>
+
+                <div class="col-6">
+         
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

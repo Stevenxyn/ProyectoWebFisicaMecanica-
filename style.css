@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+
 }
 
 .titulos {
@@ -18,10 +19,16 @@
     transition-duration: 1000ms;
 }
 
-ul{
+ul {
     margin: 10px;
 }
 
-.active{
+.active {
     color: lawngreen;
+}
+
+footer {
+    height: auto;
+    background-color: gray;
+    color: white;
 }
